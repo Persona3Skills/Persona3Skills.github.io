@@ -1,0 +1,49 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div {
+	width: 100%;
+	max-width: 60em;
+	background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+html {
+	background-color: cornflowerblue;
+	text-align: center;
+	font-size: 100%;
+}
+
+input {
+	margin: 3px;
+	padding: 3px;
+	border-radius: 5px;
+	border: 1px solid cornflowerblue;
+	width: -webkit-fill-available;
+	width: -moz-available;
+	max-width: 25em;
+}
+
+input:focus {
+	border-color: cornflowerblue;
+	box-shadow: 0 0 3pt 0pt cornflowerblue;
+}
+
+#skill_list, p {
+	width: -webkit-fill-available;
+	width: -moz-fill;
+	text-align: center;
+	display: inline-block;
+	font-size: 100%;
+	max-width: 58em;
+}
+
+p {
+	margin: 3px;
+}
